@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <!-- This is the navigation -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-info p-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">ENTERPRISE</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#welcome-section">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- End of navigation -->
+
+    <section>
+        <!-- This is the form section -->
+        <form novalidate class="mt-5 pt-5 pb-5 container">
+            <div class="row d-flex justify-content-center align-content-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" name="firstName" placeholder="First Name" required>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 col-3">
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" name="lastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-content-center">
+                <div class="col-12 col-md-6 col-lg-3 col-3">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Write your Email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-outline-info">Submit</button>
+            </div>
+        </form>
+        <!-- This is the end of the form section -->
+    </section>
+
+
+    <hr class="bg-info mt-5 mb-5" width="30%">
+
+
+    <!-- This is the youtube video link -->
+
+    <section id="">
+        <video class="container d-flex justify-content-center mt-5 pt-5 pb-5" id="video" controls="">
+            <source src="https://www.youtube.com/watch?v=DvNGUL_0jBs" type="video/webm">
+        </video>
+    </section>
+
+    <!-- This is the end of the youtube video link -->
+
+
+    <hr class="bg-info mt-5 mb-5" width="30%">
+
+
+    <section>
+        <!-- This is the feature section -->
+
+        <h1>Some features include:</h1>
+        <ul>
+            <li>Warranty on every laptop bought</li>
+            <li>Delivery service</li>
+            <li>24/7 Customer service</li>
+            <li>Important Software Installation</li>
+            <li>Computer Engineers are available to fix any problems</li>
+            <li>Quality Assurance</li>
+        </ul>
+
+        <!-- This is the end of the feature section -->
+    </section>
+
+
+    <hr class="bg-info mt-5 mb-5" width="30%">
+
+
+    <section class="mt-5 pt-5 container-fluid d-flex justify-content-center mt-5 pt-5 pl-3 pr-3">
+        <!-- This is the pricing section -->
+
+        <div class="card text-white bg-info mb-3" style="max-width: 19rem;">
+            <div class="card-header">Brand New</div>
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">We have available, new laptops fresh into the market. Different companies like
+                    Dell, HP, Apple, etc... are available at affordable prices.</p>
+            </div>
+        </div>
+
+        <div class="pl-3 pr-3">
+            <div class="card text-white bg-info mb-3" style="max-width: 19rem;">
+                <div class="card-header">London Used</div>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">We have fairly used laptops from london, America and Europe. They are all in
+                        mint condition and the batteries are strong as well.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card text-white bg-info mb-3" style="max-width: 19rem;">
+            <div class="card-header">Nigerian Used</div>
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">We have fairly used laptops from Nigeria. These laptops met certain criteria. They
+                    are all in
+                    mint condition and the batteries are strong as well.</p>
+            </div>
+        </div>
+
+        <!-- The end of the pricing sectiosn -->
+    </section>
+
+    <footer class="bg-info d-flex justify-content-center mt-5">
+        <p class="pt-5 pb-3">Created 2020 - RalphLincoln</p>
+    </footer>
+
+</body>
+
+</html>
